@@ -26,9 +26,9 @@ test('Ejecucion pasandole los parametros a fizzBuzz ONLY CASE [ Buzz ] ',()=>{
 	// test ONLY conditional i % 5 === 0
 });
 
-test('Ejecucion pasandole los parametros a fizzBuzz ONLY CASE [ Equal ] ',()=>{
+test('Ejecucion pasandole los parametros a fizzBuzz ONLY CASE [ Equal / Same Value ] ',()=>{
 	expect( f.fizzBuzz(1,1) ).toEqual('1');
 	expect( f.fizzBuzz(2,2) ).toEqual('2');
 	expect( f.fizzBuzz(4,4) ).toEqual('4');
-	// test [ reurn Equal Value ]
+	// test [ reurn Equal Value or Same Value]
 });
