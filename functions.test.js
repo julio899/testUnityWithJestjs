@@ -30,5 +30,5 @@ test('Ejecucion pasandole los parametros a fizzBuzz ONLY CASE [ Equal / Same Val
 	expect( f.fizzBuzz(1,1) ).toEqual('1');
 	expect( f.fizzBuzz(2,2) ).toEqual('2');
 	expect( f.fizzBuzz(4,4) ).toEqual('4');
-	// test [ reurn Equal Value or Same Value]
+	// test [ reurn Equal Value or Same Value ]
 });
